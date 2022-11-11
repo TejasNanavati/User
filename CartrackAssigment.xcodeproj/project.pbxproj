@@ -1,0 +1,827 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07A3CFADC4B389E57A8ADF66 /* Pods_CartrackAssigment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40AA9C8397111C4E064B64C1 /* Pods_CartrackAssigment.framework */; };
+		962B88FB291AAB6B001DC5C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962B88FA291AAB6B001DC5C4 /* AppDelegate.swift */; };
+		962B88FD291AAB6B001DC5C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962B88FC291AAB6B001DC5C4 /* SceneDelegate.swift */; };
+		962B88FF291AAB6B001DC5C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962B88FE291AAB6B001DC5C4 /* ViewController.swift */; };
+		962B8902291AAB6B001DC5C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 962B8900291AAB6B001DC5C4 /* Main.storyboard */; };
+		962B8904291AAB6C001DC5C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 962B8903291AAB6C001DC5C4 /* Assets.xcassets */; };
+		962B8907291AAB6C001DC5C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 962B8905291AAB6C001DC5C4 /* LaunchScreen.storyboard */; };
+		962B8912291AAB6D001DC5C4 /* CartrackAssigmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962B8911291AAB6D001DC5C4 /* CartrackAssigmentTests.swift */; };
+		962B891C291AAB6D001DC5C4 /* CartrackAssigmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962B891B291AAB6D001DC5C4 /* CartrackAssigmentUITests.swift */; };
+		962B891E291AAB6D001DC5C4 /* CartrackAssigmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962B891D291AAB6D001DC5C4 /* CartrackAssigmentUITestsLaunchTests.swift */; };
+		962B892C291AABAD001DC5C4 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 962B892B291AAB90001DC5C4 /* libsqlite3.0.tbd */; };
+		962B892F291AACA3001DC5C4 /* LoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962B892E291AACA3001DC5C4 /* LoginManager.swift */; };
+		962B8931291AAE60001DC5C4 /* MapAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962B8930291AAE60001DC5C4 /* MapAnnotation.swift */; };
+		962B8933291AC3F4001DC5C4 /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962B8932291AC3F4001DC5C4 /* UserListViewController.swift */; };
+		962B8935291AC427001DC5C4 /* UserDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962B8934291AC427001DC5C4 /* UserDataModel.swift */; };
+		962B8938291AC57D001DC5C4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962B8937291AC57D001DC5C4 /* User.swift */; };
+		962B893A291AC5A4001DC5C4 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962B8939291AC5A4001DC5C4 /* Address.swift */; };
+		962B893C291AC5CE001DC5C4 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962B893B291AC5CE001DC5C4 /* Company.swift */; };
+		962B893E291AC664001DC5C4 /* UserCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962B893D291AC664001DC5C4 /* UserCellTableViewCell.swift */; };
+		962B8941291B7AC6001DC5C4 /* LoginDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962B8940291B7AC6001DC5C4 /* LoginDetailViewModel.swift */; };
+		962B8943291B7C7E001DC5C4 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962B8942291B7C7D001DC5C4 /* Observable.swift */; };
+		962B8945291D487D001DC5C4 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962B8944291D487D001DC5C4 /* MapViewController.swift */; };
+		E51C38308CE25FFAEB8C4CA3 /* Pods_CartrackAssigment_CartrackAssigmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 268A48780D8AE8930140CA44 /* Pods_CartrackAssigment_CartrackAssigmentUITests.framework */; };
+		E6465B9F3CF2AD823C8F98C6 /* Pods_CartrackAssigmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8418985C1C26411F66752E /* Pods_CartrackAssigmentTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		962B890E291AAB6D001DC5C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 962B88EF291AAB6B001DC5C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 962B88F6291AAB6B001DC5C4;
+			remoteInfo = CartrackAssigment;
+		};
+		962B8918291AAB6D001DC5C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 962B88EF291AAB6B001DC5C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 962B88F6291AAB6B001DC5C4;
+			remoteInfo = CartrackAssigment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		268A48780D8AE8930140CA44 /* Pods_CartrackAssigment_CartrackAssigmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CartrackAssigment_CartrackAssigmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3785957B1C20D95C89124818 /* Pods-CartrackAssigmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CartrackAssigmentTests.debug.xcconfig"; path = "Target Support Files/Pods-CartrackAssigmentTests/Pods-CartrackAssigmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		40AA9C8397111C4E064B64C1 /* Pods_CartrackAssigment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CartrackAssigment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FE12B75D52C5EF9770D19C9 /* Pods-CartrackAssigment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CartrackAssigment.release.xcconfig"; path = "Target Support Files/Pods-CartrackAssigment/Pods-CartrackAssigment.release.xcconfig"; sourceTree = "<group>"; };
+		5A8418985C1C26411F66752E /* Pods_CartrackAssigmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CartrackAssigmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A0523A0C54047B0F27455D8 /* Pods-CartrackAssigment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CartrackAssigment.debug.xcconfig"; path = "Target Support Files/Pods-CartrackAssigment/Pods-CartrackAssigment.debug.xcconfig"; sourceTree = "<group>"; };
+		962B88F7291AAB6B001DC5C4 /* CartrackAssigment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CartrackAssigment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		962B88FA291AAB6B001DC5C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		962B88FC291AAB6B001DC5C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		962B88FE291AAB6B001DC5C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		962B8901291AAB6B001DC5C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		962B8903291AAB6C001DC5C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		962B8906291AAB6C001DC5C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		962B8908291AAB6C001DC5C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		962B890D291AAB6D001DC5C4 /* CartrackAssigmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CartrackAssigmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		962B8911291AAB6D001DC5C4 /* CartrackAssigmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartrackAssigmentTests.swift; sourceTree = "<group>"; };
+		962B8917291AAB6D001DC5C4 /* CartrackAssigmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CartrackAssigmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		962B891B291AAB6D001DC5C4 /* CartrackAssigmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartrackAssigmentUITests.swift; sourceTree = "<group>"; };
+		962B891D291AAB6D001DC5C4 /* CartrackAssigmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartrackAssigmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		962B892B291AAB90001DC5C4 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		962B892E291AACA3001DC5C4 /* LoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginManager.swift; sourceTree = "<group>"; };
+		962B8930291AAE60001DC5C4 /* MapAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotation.swift; sourceTree = "<group>"; };
+		962B8932291AC3F4001DC5C4 /* UserListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
+		962B8934291AC427001DC5C4 /* UserDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataModel.swift; sourceTree = "<group>"; };
+		962B8937291AC57D001DC5C4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		962B8939291AC5A4001DC5C4 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		962B893B291AC5CE001DC5C4 /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		962B893D291AC664001DC5C4 /* UserCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCellTableViewCell.swift; sourceTree = "<group>"; };
+		962B8940291B7AC6001DC5C4 /* LoginDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDetailViewModel.swift; sourceTree = "<group>"; };
+		962B8942291B7C7D001DC5C4 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		962B8944291D487D001DC5C4 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		C299286A0EAFE40E4E203CF1 /* Pods-CartrackAssigment-CartrackAssigmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CartrackAssigment-CartrackAssigmentUITests.debug.xcconfig"; path = "Target Support Files/Pods-CartrackAssigment-CartrackAssigmentUITests/Pods-CartrackAssigment-CartrackAssigmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C2C1B4B6506EFD2ED27C28E4 /* Pods-CartrackAssigment-CartrackAssigmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CartrackAssigment-CartrackAssigmentUITests.release.xcconfig"; path = "Target Support Files/Pods-CartrackAssigment-CartrackAssigmentUITests/Pods-CartrackAssigment-CartrackAssigmentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C6A58DF2B415634F8AA4F74A /* Pods-CartrackAssigmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CartrackAssigmentTests.release.xcconfig"; path = "Target Support Files/Pods-CartrackAssigmentTests/Pods-CartrackAssigmentTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		962B88F4291AAB6B001DC5C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				962B892C291AABAD001DC5C4 /* libsqlite3.0.tbd in Frameworks */,
+				07A3CFADC4B389E57A8ADF66 /* Pods_CartrackAssigment.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		962B890A291AAB6D001DC5C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6465B9F3CF2AD823C8F98C6 /* Pods_CartrackAssigmentTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		962B8914291AAB6D001DC5C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E51C38308CE25FFAEB8C4CA3 /* Pods_CartrackAssigment_CartrackAssigmentUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B9FACB73DB8E817E1C7AD5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A0523A0C54047B0F27455D8 /* Pods-CartrackAssigment.debug.xcconfig */,
+				4FE12B75D52C5EF9770D19C9 /* Pods-CartrackAssigment.release.xcconfig */,
+				C299286A0EAFE40E4E203CF1 /* Pods-CartrackAssigment-CartrackAssigmentUITests.debug.xcconfig */,
+				C2C1B4B6506EFD2ED27C28E4 /* Pods-CartrackAssigment-CartrackAssigmentUITests.release.xcconfig */,
+				3785957B1C20D95C89124818 /* Pods-CartrackAssigmentTests.debug.xcconfig */,
+				C6A58DF2B415634F8AA4F74A /* Pods-CartrackAssigmentTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		962B88EE291AAB6B001DC5C4 = {
+			isa = PBXGroup;
+			children = (
+				962B88F9291AAB6B001DC5C4 /* CartrackAssigment */,
+				962B8910291AAB6D001DC5C4 /* CartrackAssigmentTests */,
+				962B891A291AAB6D001DC5C4 /* CartrackAssigmentUITests */,
+				962B88F8291AAB6B001DC5C4 /* Products */,
+				962B892A291AAB90001DC5C4 /* Frameworks */,
+				1B9FACB73DB8E817E1C7AD5A /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		962B88F8291AAB6B001DC5C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				962B88F7291AAB6B001DC5C4 /* CartrackAssigment.app */,
+				962B890D291AAB6D001DC5C4 /* CartrackAssigmentTests.xctest */,
+				962B8917291AAB6D001DC5C4 /* CartrackAssigmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		962B88F9291AAB6B001DC5C4 /* CartrackAssigment */ = {
+			isa = PBXGroup;
+			children = (
+				962B893F291B7A9A001DC5C4 /* ViewModel */,
+				962B8936291AC571001DC5C4 /* Model */,
+				962B892D291AAC8B001DC5C4 /* SQLite */,
+				962B88FA291AAB6B001DC5C4 /* AppDelegate.swift */,
+				962B88FC291AAB6B001DC5C4 /* SceneDelegate.swift */,
+				962B88FE291AAB6B001DC5C4 /* ViewController.swift */,
+				962B8900291AAB6B001DC5C4 /* Main.storyboard */,
+				962B8903291AAB6C001DC5C4 /* Assets.xcassets */,
+				962B8905291AAB6C001DC5C4 /* LaunchScreen.storyboard */,
+				962B8908291AAB6C001DC5C4 /* Info.plist */,
+				962B8932291AC3F4001DC5C4 /* UserListViewController.swift */,
+				962B893D291AC664001DC5C4 /* UserCellTableViewCell.swift */,
+				962B8944291D487D001DC5C4 /* MapViewController.swift */,
+			);
+			path = CartrackAssigment;
+			sourceTree = "<group>";
+		};
+		962B8910291AAB6D001DC5C4 /* CartrackAssigmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				962B8911291AAB6D001DC5C4 /* CartrackAssigmentTests.swift */,
+			);
+			path = CartrackAssigmentTests;
+			sourceTree = "<group>";
+		};
+		962B891A291AAB6D001DC5C4 /* CartrackAssigmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				962B891B291AAB6D001DC5C4 /* CartrackAssigmentUITests.swift */,
+				962B891D291AAB6D001DC5C4 /* CartrackAssigmentUITestsLaunchTests.swift */,
+			);
+			path = CartrackAssigmentUITests;
+			sourceTree = "<group>";
+		};
+		962B892A291AAB90001DC5C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				962B892B291AAB90001DC5C4 /* libsqlite3.0.tbd */,
+				40AA9C8397111C4E064B64C1 /* Pods_CartrackAssigment.framework */,
+				268A48780D8AE8930140CA44 /* Pods_CartrackAssigment_CartrackAssigmentUITests.framework */,
+				5A8418985C1C26411F66752E /* Pods_CartrackAssigmentTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		962B892D291AAC8B001DC5C4 /* SQLite */ = {
+			isa = PBXGroup;
+			children = (
+				962B892E291AACA3001DC5C4 /* LoginManager.swift */,
+				962B8930291AAE60001DC5C4 /* MapAnnotation.swift */,
+			);
+			path = SQLite;
+			sourceTree = "<group>";
+		};
+		962B8936291AC571001DC5C4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				962B8937291AC57D001DC5C4 /* User.swift */,
+				962B8939291AC5A4001DC5C4 /* Address.swift */,
+				962B893B291AC5CE001DC5C4 /* Company.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		962B893F291B7A9A001DC5C4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				962B8934291AC427001DC5C4 /* UserDataModel.swift */,
+				962B8940291B7AC6001DC5C4 /* LoginDetailViewModel.swift */,
+				962B8942291B7C7D001DC5C4 /* Observable.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		962B88F6291AAB6B001DC5C4 /* CartrackAssigment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 962B8921291AAB6D001DC5C4 /* Build configuration list for PBXNativeTarget "CartrackAssigment" */;
+			buildPhases = (
+				27C20AEAA62572F44483982A /* [CP] Check Pods Manifest.lock */,
+				962B88F3291AAB6B001DC5C4 /* Sources */,
+				962B88F4291AAB6B001DC5C4 /* Frameworks */,
+				962B88F5291AAB6B001DC5C4 /* Resources */,
+				2B29FF8BF3656DCD1095ADCC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CartrackAssigment;
+			productName = CartrackAssigment;
+			productReference = 962B88F7291AAB6B001DC5C4 /* CartrackAssigment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		962B890C291AAB6D001DC5C4 /* CartrackAssigmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 962B8924291AAB6D001DC5C4 /* Build configuration list for PBXNativeTarget "CartrackAssigmentTests" */;
+			buildPhases = (
+				6FA942A0397657C655C598AA /* [CP] Check Pods Manifest.lock */,
+				962B8909291AAB6D001DC5C4 /* Sources */,
+				962B890A291AAB6D001DC5C4 /* Frameworks */,
+				962B890B291AAB6D001DC5C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				962B890F291AAB6D001DC5C4 /* PBXTargetDependency */,
+			);
+			name = CartrackAssigmentTests;
+			productName = CartrackAssigmentTests;
+			productReference = 962B890D291AAB6D001DC5C4 /* CartrackAssigmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		962B8916291AAB6D001DC5C4 /* CartrackAssigmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 962B8927291AAB6D001DC5C4 /* Build configuration list for PBXNativeTarget "CartrackAssigmentUITests" */;
+			buildPhases = (
+				9D449F78886BE972A17E54C7 /* [CP] Check Pods Manifest.lock */,
+				962B8913291AAB6D001DC5C4 /* Sources */,
+				962B8914291AAB6D001DC5C4 /* Frameworks */,
+				962B8915291AAB6D001DC5C4 /* Resources */,
+				415F75DBA3368A07EC657FA8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				962B8919291AAB6D001DC5C4 /* PBXTargetDependency */,
+			);
+			name = CartrackAssigmentUITests;
+			productName = CartrackAssigmentUITests;
+			productReference = 962B8917291AAB6D001DC5C4 /* CartrackAssigmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		962B88EF291AAB6B001DC5C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					962B88F6291AAB6B001DC5C4 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					962B890C291AAB6D001DC5C4 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 962B88F6291AAB6B001DC5C4;
+					};
+					962B8916291AAB6D001DC5C4 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 962B88F6291AAB6B001DC5C4;
+					};
+				};
+			};
+			buildConfigurationList = 962B88F2291AAB6B001DC5C4 /* Build configuration list for PBXProject "CartrackAssigment" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 962B88EE291AAB6B001DC5C4;
+			productRefGroup = 962B88F8291AAB6B001DC5C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				962B88F6291AAB6B001DC5C4 /* CartrackAssigment */,
+				962B890C291AAB6D001DC5C4 /* CartrackAssigmentTests */,
+				962B8916291AAB6D001DC5C4 /* CartrackAssigmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		962B88F5291AAB6B001DC5C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				962B8907291AAB6C001DC5C4 /* LaunchScreen.storyboard in Resources */,
+				962B8904291AAB6C001DC5C4 /* Assets.xcassets in Resources */,
+				962B8902291AAB6B001DC5C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		962B890B291AAB6D001DC5C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		962B8915291AAB6D001DC5C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27C20AEAA62572F44483982A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CartrackAssigment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B29FF8BF3656DCD1095ADCC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CartrackAssigment/Pods-CartrackAssigment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CartrackAssigment/Pods-CartrackAssigment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CartrackAssigment/Pods-CartrackAssigment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		415F75DBA3368A07EC657FA8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CartrackAssigment-CartrackAssigmentUITests/Pods-CartrackAssigment-CartrackAssigmentUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CartrackAssigment-CartrackAssigmentUITests/Pods-CartrackAssigment-CartrackAssigmentUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CartrackAssigment-CartrackAssigmentUITests/Pods-CartrackAssigment-CartrackAssigmentUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FA942A0397657C655C598AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CartrackAssigmentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D449F78886BE972A17E54C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CartrackAssigment-CartrackAssigmentUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		962B88F3291AAB6B001DC5C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				962B8943291B7C7E001DC5C4 /* Observable.swift in Sources */,
+				962B893A291AC5A4001DC5C4 /* Address.swift in Sources */,
+				962B8941291B7AC6001DC5C4 /* LoginDetailViewModel.swift in Sources */,
+				962B88FF291AAB6B001DC5C4 /* ViewController.swift in Sources */,
+				962B8931291AAE60001DC5C4 /* MapAnnotation.swift in Sources */,
+				962B893C291AC5CE001DC5C4 /* Company.swift in Sources */,
+				962B8935291AC427001DC5C4 /* UserDataModel.swift in Sources */,
+				962B892F291AACA3001DC5C4 /* LoginManager.swift in Sources */,
+				962B893E291AC664001DC5C4 /* UserCellTableViewCell.swift in Sources */,
+				962B8938291AC57D001DC5C4 /* User.swift in Sources */,
+				962B88FB291AAB6B001DC5C4 /* AppDelegate.swift in Sources */,
+				962B88FD291AAB6B001DC5C4 /* SceneDelegate.swift in Sources */,
+				962B8933291AC3F4001DC5C4 /* UserListViewController.swift in Sources */,
+				962B8945291D487D001DC5C4 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		962B8909291AAB6D001DC5C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				962B8912291AAB6D001DC5C4 /* CartrackAssigmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		962B8913291AAB6D001DC5C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				962B891C291AAB6D001DC5C4 /* CartrackAssigmentUITests.swift in Sources */,
+				962B891E291AAB6D001DC5C4 /* CartrackAssigmentUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		962B890F291AAB6D001DC5C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 962B88F6291AAB6B001DC5C4 /* CartrackAssigment */;
+			targetProxy = 962B890E291AAB6D001DC5C4 /* PBXContainerItemProxy */;
+		};
+		962B8919291AAB6D001DC5C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 962B88F6291AAB6B001DC5C4 /* CartrackAssigment */;
+			targetProxy = 962B8918291AAB6D001DC5C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		962B8900291AAB6B001DC5C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				962B8901291AAB6B001DC5C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		962B8905291AAB6C001DC5C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				962B8906291AAB6C001DC5C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		962B891F291AAB6D001DC5C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		962B8920291AAB6D001DC5C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		962B8922291AAB6D001DC5C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A0523A0C54047B0F27455D8 /* Pods-CartrackAssigment.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CartrackAssigment/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CarTrack.CartrackAssigment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		962B8923291AAB6D001DC5C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FE12B75D52C5EF9770D19C9 /* Pods-CartrackAssigment.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CartrackAssigment/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CarTrack.CartrackAssigment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		962B8925291AAB6D001DC5C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3785957B1C20D95C89124818 /* Pods-CartrackAssigmentTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CarTrack.CartrackAssigmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CartrackAssigment.app/CartrackAssigment";
+			};
+			name = Debug;
+		};
+		962B8926291AAB6D001DC5C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6A58DF2B415634F8AA4F74A /* Pods-CartrackAssigmentTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CarTrack.CartrackAssigmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CartrackAssigment.app/CartrackAssigment";
+			};
+			name = Release;
+		};
+		962B8928291AAB6D001DC5C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C299286A0EAFE40E4E203CF1 /* Pods-CartrackAssigment-CartrackAssigmentUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CarTrack.CartrackAssigmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CartrackAssigment;
+			};
+			name = Debug;
+		};
+		962B8929291AAB6D001DC5C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2C1B4B6506EFD2ED27C28E4 /* Pods-CartrackAssigment-CartrackAssigmentUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CarTrack.CartrackAssigmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CartrackAssigment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		962B88F2291AAB6B001DC5C4 /* Build configuration list for PBXProject "CartrackAssigment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				962B891F291AAB6D001DC5C4 /* Debug */,
+				962B8920291AAB6D001DC5C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		962B8921291AAB6D001DC5C4 /* Build configuration list for PBXNativeTarget "CartrackAssigment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				962B8922291AAB6D001DC5C4 /* Debug */,
+				962B8923291AAB6D001DC5C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		962B8924291AAB6D001DC5C4 /* Build configuration list for PBXNativeTarget "CartrackAssigmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				962B8925291AAB6D001DC5C4 /* Debug */,
+				962B8926291AAB6D001DC5C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		962B8927291AAB6D001DC5C4 /* Build configuration list for PBXNativeTarget "CartrackAssigmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				962B8928291AAB6D001DC5C4 /* Debug */,
+				962B8929291AAB6D001DC5C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 962B88EF291AAB6B001DC5C4 /* Project object */;
+}
